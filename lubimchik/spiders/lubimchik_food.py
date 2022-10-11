@@ -11,8 +11,8 @@ class lubimchikSpider(scrapy.Spider):
         # 'https://www.lubimchik.ru/napolniteli-i-tualety-dlya-koshek/',
         # 'https://www.lubimchik.ru/vitaminy-i-pishchevye-dobavki-dlya-koshek/'
     ]
-    headers = {'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36'}
-    cookies = {'BITRIX_SM_REGION_ID': 14}
+    headers = {'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36'}# без headers была ошибка 500
+    cookies = {'BITRIX_SM_REGION_ID': 14}# регион - Санкт-Петербург
 
 
 
